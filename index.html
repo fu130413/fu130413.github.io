@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>pc</title>
+    <style>
+    body{
+        margin: 0;
+    }
+    *{
+        text-align:center;
+        box-sizing: border-box;
+        list-style: none;
+    }
+    #l{
+        width: 320px;
+        height: 100vh;
+        background-color: saddlebrown;
+        position: fixed;
+        clear: left;
+    }
+    #r{
+        width:calc(100% - 320px) ;
+        height: 100vh;
+        background-color: salmon;
+        float: right;
+        
+    }
+    .logo{
+        width: 150px;
+        height: 150px;
+        background-color: sandybrown;
+        margin-left: 85px;
+        margin-top: 185px;
+        font-size:45px;
+        line-height:150px;
+    }
+    .aa{
+        border: 2px solid black;
+        width: 150px;
+        height: 50px;
+        margin: 100px 0px -80px 45px;
+        line-height:50px;
+
+    }
+    .mid{
+        width: 960px;
+        height: 570px;
+        background-color: sandybrown;
+        margin: 0 auto;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .xyz{
+        
+    }
+    </style>
+</head>
+<body>
+    <div id="l">
+        <div class="logo">logo</div>
+        <ul>
+            <li>
+                <div class="aa">aaaa</div>
+                <div class="aa">aaaaa</div>
+                <div class="aa">aaaaaa</div>
+            </li>
+        </ul>
+    </div>
+    <div id="r">
+        <div class="mid">
+            <div class="xyz">x</div>
+            <div class="xyz">y</div>
+            <div class="xyz">z</div>
+        </div>
+    </div>
+</body>
+</html>
